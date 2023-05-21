@@ -2,28 +2,53 @@
 
 <head>
 
-<title> xwendnga </title>
+<title> Xwendnga | پرسیاری نیشتیمانی پۆلی ١٢ </title>
+  
+<meta charset="UTF-8">
+<meta name="description" content="ماڵپەری خوێندنگا: ماڵپەرێک تایبەت بە کتێب و مەلزەمە و کتێبی مامۆستا و چەندەها شتی دیکەش بۆ هەموو ئاستەکانی خوێندن ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="کتێبی قوتابی, کتێبی مامۆستا, مەلزەمە">
+<meta name="author" content="Ravin Awder">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" href="https://1.bp.blogspot.com/-f5S8milg7CM/XypbsfiHSAI/AAAAAAAACRE/zWZby1pqj8YMOHM5K_JPFXfZL0G86NU3ACLcBGAsYHQ/s640/received_272715643810448.png">
+<link rel="shortcut icon" href="icons/title logo.png">
 <link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'/>
 
 <style>
 
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f0f0f0; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #17cc24; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0d7214; 
+}
+
 Body {
-background-image: linear-gradient(to right, #001f1a, #1d2529);
-Background-repeat: no-repeat;
-Background-attachment: fixed;
+background-color: white;
 Background-size: cover;
 Background-position: center;
 font-family: 'Droid Arabic Kufi', serif;
+font-weight: bold;
 }
 
 * {
@@ -52,7 +77,7 @@ div.navbar{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 15%;
 }
 
 .centers {
@@ -62,21 +87,49 @@ div.navbar{
   margin-right: auto;
   border: 2px solid white;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px black;
+  box-shadow: 0px 0px 10px 0px #555;
   background-color: rgb(58, 58, 58);
 }
 
-button.title{
-  text-decoration: none;
+.testtt {
+  font-size: 15px;
   text-align: center;
-  color: #001f1a;
+  width: 60%;
+  color: #17cc24;
+  padding: 6px;
+  box-shadow: 0px 0px px 2px #0c751353;
+  border: 3px solid #17cc24;
+  border-radius: 100px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.testtt:hover {
+  transition: 0.4S;
+  box-shadow: 0px 0px 0px 0px black;
+  transition: 0.4s;
+  background-color: #17cc24;
+  color: white;
+}
+
+.testtt:active {
   background-color: white;
-  padding: 10px;
- border: 2px solid black;
- border-radius: 100px;
- margin-left: auto;
- margin-right: auto;
- cursor: pointer;
+  color: #17cc24;
+  transition: 0.4S;
+}
+
+.texttest:hover {
+  transition: 0.4S;
+  width: 90%;
+  text-decoration: none;
+  color: white;
+}
+
+.texttest:active {
+  transition: 0.4S;
+  width: 75%;
+  background-color: white;
+  color: #17cc24;
 }
 
 .centert {
@@ -86,142 +139,256 @@ button.title{
 }
 
 button.title:hover{
+  transition: 0.4s;
   color: #ffffff;
-  background-image: linear-gradient(to right, #001f1a, #1d2529);
+  background-color: #17cc24;
   padding: 10px;
- border: 2px solid rgb(255, 255, 255);
+ border: 3px solid rgb(255, 255, 255);
 }
-
 
 button.title:active{
- box-shadow: 0px 0px 10px 0px white;!important
-color: black;!important
-}
-
-*:focus {
-    outline: 0 !important;
-    outline-offset: 0 !important;
-    background-image: linear-gradient(to right, #001f1a, #1d2529); !important;
-    color: white;!important
-
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-div.app {
-  background-color:  rgb(58, 58, 58);
-  box-shadow: 0px 0px 10px 0px black;
-  border-radius: 20px;
-  border: 1px solid white;
-}
-
-h2 {
-  text-align: center;
-  color: white;
-  font-family: 'Droid Arabic Kufi', serif;
-}
-
-p {
-  text-align: center;
-  color: white;
-
-}
-
-.center {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-button.click {
-  text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
-  color: black;
   background-color: white;
+  color: #17cc24;
+}
+
+div.footer {
+  background-color: #0d7214;
+  border-radius: 40px 40px 0px 0px;
   text-align: center;
-  border-radius: 50px;
-  padding: 5px;
-  border: 1px solid white;
-}
-
-button.click:hover {
-  color: white;
-  background-color: rgb(58, 58, 58);
-  
-}
-
-button.click:active {
-  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: black;
   box-shadow: 0px 0px 10px 0px white;
 }
 
+h4 {
+  font-family: 'Droid Arabic Kufi', serif;
+}
+
+.foter {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 30px;
+  right: 30px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #17cc24;
+  color: white;
+  cursor: pointer;
+  margin: 0%;
+  padding: 0px;
+  border-radius: 50px;
+}
+
+#myBtn:hover {
+  transition: 0.5s;
+  background-color: #f0f0f0;
+  color: #17cc24;
+  border: 4px solid #17cc24;
+}
+
+.xwendnga {
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-weight: bold;
+
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  background-color: rgba(244, 255, 244, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #17cc24;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #0d7214;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-width: 500px) {
+
+  body {
+    font-size: 5px;
+  }
+
+  .testtt {
+    width: 90%;
+    margin-bottom: 400px;
+  }
+
+  .testtt:active, .testtt:hover {
+    width: 90%;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .foter {
+    font-size: 15px;
+  }
+
+  .texttest {
+    font-size: 12px;
+  }
+
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+
+  .center {
+  width: 25%;
+}
+
+}
+
+.navicon {
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-bottom: 0.2px;
+  color: #17cc24;
+  box-shadow: 0px 0px 0px 10px #17cc24;
+  
+}
+
+.menuicon:hover {
+  transition: 0.4s;
+  color: #0d7214;
+}
+
+.namexwendnga {
+  padding-right: 15px;
+  cursor: pointer;
+}
+
 </style>
-
 </head>
-
 <body>
-  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand text-white" href=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span> </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto p-1">
-      <li class="nav-item">
 
-      </li>
-    </ul> 
- <div class="menu">
-<div class="my-2 my-lg-0 text-right" dir="rtl">
-  <a href="index.html" style="background-color: #212121;" class="btn btn-dark my-2 my-sm-0">سەرەتا</a> 
-  <a href="about.html" class="btn btn-dark my-2 my-sm-0">دەربارە</a> 
-  <a href="staff.html" class="btn btn-dark my-2 my-sm-0">ستاف</a> 
-  <a href="app.html" class="btn btn-dark my-2 my-sm-0">بەرنامە</a> 
-        </div>
-      </div>
-   </div> 
-</nav>
-
- 
-  
-      </div>
-</nav>
-<div class="container">
-
-<br>
-<br>
-<div class="app">
-
-    <br>
-    <br>
-
-    <h2 style="color: white; text-align: center; font-family: 'Droid Arabic Kufi', serif;
-    border: 1px solid white; border-radius: 10px; margin-left: 40px; margin-right: 40px; padding: 10px;"> پرسیاری نیشتیمانی بۆ پۆلی ١٢ی ئامادەیی
-    </h2>
-    
-    <br>
-    <br>  
-  
-  <button onclick="window.location.href='https://drive.google.com/file/d/1B86e4P6EBhU1xvkwP42zc9tbPo14dfZr/view'" class="click center"> کلیک لێرە بکە
-
-</button>
-  <br>
-  <br>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
 
 
- 
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="Home.html">سەرەتا</a>
+      <a href="About.html">دەربارە</a>
+      <a href="developer.html">دیڤیڵۆپەر</a>
+    </div>
+  </div>
 
+  <div class="navicon">
+  <span class="menuicon" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
+  <a href="Home.html" class="namexwendnga"><img src="icons/logopng.png" alt="Xwendnga" style="width: 120px; padding: 5px;"></a>
 </div>
+
+<div class="my-cool-item">
+  <img src="bgs/q12.png" width="100%">
+</div>
+
 <br>
 <br>
+<br>
+
+<div class="testtt">
+  <a style="text-decoration: none;" class="texttest" target="_blank" href="https://drive.google.com/file/d/1B86e4P6EBhU1xvkwP42zc9tbPo14dfZr/view"> کلیک لێرە بکە </a>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div class="footer">
+  <div class="w3-xlarge w3-section w3-text-white">
+    <h4> ڕاڤین ئاودێر </h4>
+    <a class="links" href="https://www.facebook.com/ravin.awder.1" target="_blank"><i class="fa fa-facebook-official w3-hover-text-gray"></i></a> &nbsp;
+    <a class="links" href="https://www.instagram.com/ravin.design_/" target="_blank"><i class="fa fa-instagram w3-hover-text-gray"></i></a>
+  </div>
+  <br>
+  <p class="foter" style="color: white; text-align: center;">© Copyright. All Right Reserved For <a style="color: #d5ffd9;" href="Home.html">Xwendnga</a></p>
+  
+  </div>
+
+ 
+
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+     
+
+  </script>
 
 </body>
 
 </html>
-
